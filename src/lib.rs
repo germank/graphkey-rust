@@ -8,7 +8,7 @@ pub mod coloring;
 // GraphKey object
 //
 
-#[derive(Debug, Hash, PartialEq, Eq)]
+#[derive(Debug, Clone, Hash, PartialEq, Eq)]
 pub struct GraphKey(Vec<usize>);
 
 impl GraphKey {
